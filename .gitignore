@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Generated exports and logs
+exports/*.xlsx
+exports/*.csv
+exports/*.pdf
+!exports/.gitkeep
+*.log
+
+# Sensitive private evaluations (optional: uncomment if keeping private locally)
+# data/candidate_evaluations.json
+# data/seats_allocation.json
